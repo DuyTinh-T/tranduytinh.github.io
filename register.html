@@ -1,0 +1,98 @@
+<!-- pattern -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/img/dark-logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/formdangki.css">
+    <link rel="stylesheet" href="./assets/clothing.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="./reponsive-clothing.css">
+    <title>Register now</title>
+    <link rel="stylesheet" href="/DoAnCoSo1/css/styleElement.css">
+    <link rel="stylesheet" href="/DoAnCoSo1/css/banhang.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="/DoAnCoSo1/assets/icons/themify-icons-font/themify-icons/themify-icons.css">
+    <link rel="icon" href="/DoAnCoSo1/assets/img/dark-logo.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Smooch&display=swap" rel="stylesheet">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="top">
+        <div class="container">
+            <div class="row justify-content">
+                <a href="index.html">
+                     <div class="logo"><img src="images/logo.png" alt=""></div>
+                </a>
+               
+                <div class="menu-bar">
+                    <span></span>
+                </div>
+                <div class="menu-items">
+                    <li class="menu-item"><a href="index.html">- TRANG CHỦ</a></li>
+                       <li class="menu-item"><a href="xuhuong.html">- XU HƯỚNG</a></li>
+                       <li class="menu-item"><a href="saothoitrang.html" >- SAO THỜI TRANG</a></li>
+                       <li class="menu-item"><a href="lamdep.html">- LÀM ĐẸP</a></li>
+                       <li class="menu-item"><a href="#">- SẢN PHẨM</a></li>
+                       <li class="menu-item"><a href="#">- TÀI KHOẢN</a></li>
+                </div>
+            </div>
+        </div>
+    <div id="wrapper">
+        <form action="#"
+         method="post" enctype="multipart/form-data" id="form-login">
+        <h1 class="form-heading">Đăng kí</h1>
+
+        <div class="form-group">
+            <label>Họ và tên:</label>
+            <input type="text" class="form-input" placeholder="abc">
+        </div>
+        <div class="form-group">
+            <label>Ngày sinh:</label>
+            <input type="date" class="form-input">
+        </div>
+        <div class="form-group">
+            <label for="gt">Giới tính:</label>
+            <input type="radio" value="1" name="gt" class="form-input2"><a style="color:rgb(196, 190, 190);">Nam</a>
+            <input type="radio" value="0" name="gt" class="form-input2"><a style="color:rgb(196, 192, 192);">Nữ</a>
+        </div>
+        <div class="form-group">
+            <label>Tài khoản:</label>
+            <input type="text" class="form-input" placeholder="abc">
+        </div>
+        <div class="form-group">
+            <label>Mật khẩu:</label>
+            <input type="password" class="form-input" placeholder="Nhập mật khẩu">
+        </div>
+        <div class="form-group">
+            <label>Nhập lại mật khẩu:</label>
+            <input type="password" class="form-input" placeholder="Nhập lại mật khẩu">
+        </div>
+        <div class="form-group">
+            <label>Email:</label>
+            <input type="email" class="form-input" placeholder="clothing@gmail.com">
+        </div>
+        <div class="form-group">
+            <label>Phone:</label>
+            <!-- <input type="number" class="form-input" placeholder="0123456789"> -->
+            <input type="number" min="0" max="9999999999" onkeypress="if(this.value.length == 10) return false;"
+               placeholder="0123456789" required class="form-input" name="number">
+        </div>
+        <div class="form-group">
+            <label>Địa chỉ:</label>
+            <input type="text" class="form-input"placeholder="123 Trần Văn A">
+        </div>
+
+        <input type="submit" value="Đăng kí" class="form-submit">
+        </form>
+    </div>
+    
+
+</body>
+<script src="js/script.js"></script> 
+<script src="js/shop.js"></script> 
+</html>
